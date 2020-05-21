@@ -5,6 +5,9 @@ WORKDIR /application
 # Install RSYNC
 RUN apk add rsync
 
+# Install GIT
+RUN apk add git
+
 # Install NPM
 RUN apk add --update npm
 
